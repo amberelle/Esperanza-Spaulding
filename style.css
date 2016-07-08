@@ -36,17 +36,17 @@ li{
   font-size: .8em;
 }
 
-h4{
+.spain{
   /*font-family: Verdana, Geneva, sans-serif;*/
   font-family: 'Dynalight', cursive;
-
+  font-size: 150%;
 
 }
 .title{
   margin-left:2%;
   color:#FFFCFC;
 }
-img{
+.esperanza{
   max-width: 100%;
 }
 .content1{
@@ -57,22 +57,30 @@ img{
   padding-left:.5em;
   padding-top: .1em;
 
+
 }
 .content2{
   font-family: "Times New Roman", Times, serif;
   background-color: #FFFCFC;
   width:96%;
-  height:7em;
+  height:10em;
   margin:2%;
   padding:1% 4%;
   text-align: center;
 
 }
-
-
+#awards{
+  font-family: 'Cinzel', serif;
+}
+/*#native{
+  font-family: "Times New Roman", Times, serif;
+}*/
+.album{
+  display:none;
+}
 
 @media screen and (min-width:650px){
- img{
+ .esperanza{
    max-width:none;
  }
  .nav{
@@ -99,7 +107,7 @@ img{
   width:46%;
   height:20em;
   text-align: center;
-  padding:6em;
+  padding:4em;
 }
 .content2{
   float:left;
@@ -107,13 +115,38 @@ img{
   height: 20em;
   padding-top:5em;
 }
+.album{
+  display:inline;
+  width:40%;
+}
+
 }
 
 
 
 
-@media screen and (min-width:1000px){
-  body{
-    background-color: blue;
+@media screen and (min-width:1270px){
+
+  .esperanza{
+    float:left;
+    width:75%;
+  }
+  .content1{
+    float:left;
+    width:20%;
+    height:35em;
+    padding:13em 1em 6em 1em;
+
+  }
+  .content2{
+    float:left;
+    width:20%;
+    height:35em;
+    padding: 10em 1em 3em 1em;
+  }
+  .title{
+    /*top:60em;*/
+    font-size:150%;
+    float:left;
   }
 }
